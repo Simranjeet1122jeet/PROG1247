@@ -1,0 +1,101 @@
+/* Simranjeet Kaur 8919588*/
+
+body, h1, h2, p, blockquote, footer {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 20px/1.5 Arial, sans-serif;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1rem; 
+}
+
+q {
+    font-style: italic;
+    font-family: cursive;
+}
+
+footer p {
+    font-size: 0.8rem; 
+}
+
+
+body {
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.main-section {
+    text-align: center; 
+    padding:20px; 
+}
+
+#bio {
+    text-align: left; 
+}
+
+/* Apply borders and box shadows */
+header, footer {
+    border: 1px solid #1d1927; /* Black border */
+    box-shadow: 2px 2px 5px #888; /* Box shadow */
+    text-align: center; /* Align text to the center */
+}
+
+.main-section-figure {
+    border: 1px solid #1d1927; /* Black border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px #f9f871; /* Box shadow */
+    margin: 10px auto; /* Center align */
+}
+
+/* Apply styles to the figure element */
+figure {
+    display: inline-block; /* Set display to inline-block */
+    border: 1px solid #1d1927; /* Add border to the figure */
+    padding: 20px; /* Add padding for spacing between image and border */
+    margin: 0; /* Remove default margins */
+}
+
+
+/* Apply color */
+figcaption#absolute-path-image {
+    color: #ff0000; /* Red font color */
+}
+
+figcaption#relative-path-image {
+    color: #5445f4; /* Green font color */
+}
+
+h1, h2 {
+    color: #ff805a; /* Named color */
+}
+
+/* Background */
+header, footer {
+    background: linear-gradient(to bottom, #fff, #f9f871); /* Gradient background */
+}
+
+.main-section {
+    background-color: #5445F4; 
+}
+
+#absolute-path-image {
+    background-color: hsla(240, 100%, 50%, 0.3); /* HSLA background color */
+}
+
+#relative-path-image {
+    background-color: hsla(0, 100%, 50%, 0.3); /* HSLA background color */
+}
+
+
